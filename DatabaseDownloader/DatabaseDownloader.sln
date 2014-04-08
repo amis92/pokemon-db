@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseDownloader", "DatabaseDownloader.csproj", "{09E5E051-2A03-47B6-A7D6-AA2F585D0F84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09E5E051-2A03-47B6-A7D6-AA2F585D0F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E5E051-2A03-47B6-A7D6-AA2F585D0F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09E5E051-2A03-47B6-A7D6-AA2F585D0F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E5E051-2A03-47B6-A7D6-AA2F585D0F84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
