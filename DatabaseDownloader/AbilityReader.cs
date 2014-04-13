@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DatabaseDownloader
 {
-    class AbilityReader : BulbaReader<AbilityReader, AbilityReader.Factory>
+    public class AbilityReader : BulbaReader<AbilityReader, AbilityReader.Factory>
     {
         public string Name
         {
@@ -54,13 +54,13 @@ namespace DatabaseDownloader
             this.Infobox = Infobox;
         }
 
-        public override void PrintSqlInsert()
+        public override string GetSqlInsert()
         {
             var builder = new StringBuilder();
             builder.AppendLine("INSERT INTO PMOLENDA.ABILITIES VALUES (");
             builder.AppendFormat("{0},", SQLInsert(Name)).AppendLine();
             builder.AppendFormat("{0});", SQLInsert(Desc)).AppendLine();
-            Console.WriteLine(builder.ToString());
+            return builder.ToString();
         }
 
         public override string ToString()
@@ -70,9 +70,13 @@ namespace DatabaseDownloader
 
         public class Factory : Factory<AbilityReader>
         {
-            public AbilityReader ReadFromWebPage(string title)
+            public AbilityReader ReadFromWebPage(string abilityName)
             {
-                string page = DownloadBulbaEditPage(title);
+                if (!abilityName.EndsWith("_(Ability)"))
+                {
+                    abilityName += "_(Ability)";
+                }
+                string page = DownloadBulbaEditPage(abilityName);
                 string infobox = getInfobox(page, "{{AbilityInfobox", "==Effect");
                 return new AbilityReader(infobox);
             }

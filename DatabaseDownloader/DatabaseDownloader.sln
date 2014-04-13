@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseDownloader", "DatabaseDownloader.csproj", "{09E5E051-2A03-47B6-A7D6-AA2F585D0F84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseDownloaderTests", "DatabaseDownloaderTests\DatabaseDownloaderTests.csproj", "{395D6010-FF68-4732-B446-2B08DF4AE4EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,10 @@ Global
 		{09E5E051-2A03-47B6-A7D6-AA2F585D0F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09E5E051-2A03-47B6-A7D6-AA2F585D0F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09E5E051-2A03-47B6-A7D6-AA2F585D0F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395D6010-FF68-4732-B446-2B08DF4AE4EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395D6010-FF68-4732-B446-2B08DF4AE4EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395D6010-FF68-4732-B446-2B08DF4AE4EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395D6010-FF68-4732-B446-2B08DF4AE4EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

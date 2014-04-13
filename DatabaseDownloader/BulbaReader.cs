@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DatabaseDownloader
 {
-    abstract class BulbaReader<T, F> where T : BulbaReader<T, F> where F : BulbaReader<T,F>.Factory<T>, new()
+    public abstract class BulbaReader<T, F> where T : BulbaReader<T, F> where F : BulbaReader<T,F>.Factory<T>, new()
     {
 
         public string Infobox
@@ -18,20 +18,20 @@ namespace DatabaseDownloader
             protected set;
         }
 
-        public abstract void PrintSqlInsert();
+        public abstract string GetSqlInsert();
 
-        public static void DownloadAndPrint(string listFilePath, string format, Action<string> defaultAction)
+        public static void DownloadAndPrint(TextReader nameListReader, string format, Action<string> defaultAction)
         {
-            Action<string, Action<T>> download = (filePath, processor) =>
+            Action<Action<T>> download = processor =>
             {
-                var abilityReaders = BulbaReader<T, F>.Download(filePath, (new F()).ReadFromWebPage);
-                abilityReaders.ForEach(processor);
+                var readerList = BulbaReader<T, F>.Download(nameListReader, (new F()).ReadFromWebPage);
+                readerList.ForEach(processor);
             };
             Action<T> process;
             switch (format)
             {
                 case "sql":
-                    process = new Action<T>(reader => reader.PrintSqlInsert());
+                    process = new Action<T>(r => Console.WriteLine(r.GetSqlInsert()));
                     break;
                 case "txt":
                     process = new Action<T>(r => Console.WriteLine(r.ToString()));
@@ -40,21 +40,21 @@ namespace DatabaseDownloader
                     defaultAction(format);
                     return;
             }
-            download(listFilePath, process);
+            download(process);
         }
 
         public delegate T GetReader(string title);
 
-        public static List<T> Download(string listFilePath, GetReader getReader)
+        public static List<T> Download(TextReader nameListReader, GetReader getReader)
         {
-            var fileReader = File.OpenText(listFilePath);
             var titles = new List<string>();
-            while (!fileReader.EndOfStream)
+            string line;
+            while ((line = nameListReader.ReadLine()) != null)
             {
-                titles.Add(fileReader.ReadLine());
+                titles.Add(line);
             }
             List<T> list = new List<T>();
-            foreach (var title in titles)
+            foreach (string title in titles)
             {
                 var reader = getReader(title);
                 if (reader == null)
@@ -83,8 +83,8 @@ namespace DatabaseDownloader
             {
                 StreamReader r = new StreamReader(e.Response.GetResponseStream());
                 Console.WriteLine(r.ReadToEnd());
+                throw new ArgumentOutOfRangeException("title", title, "No webpage of given title found.");
             }
-            return "error";
         }
 
         protected static string getInfobox(string page, string beginPattern, string endPattern)
@@ -96,11 +96,11 @@ namespace DatabaseDownloader
             }
             string cropped = page.Substring(beginIndex);
             int endIndex = cropped.IndexOf(endPattern, StringComparison.OrdinalIgnoreCase);
-            return cropped.Substring(0, cropped.Length - endIndex);
+            return cropped.Substring(0, endIndex > 0 ? endIndex + endPattern.Length : cropped.Length);
         }
 
 
-        protected static string formatToSql(int? s)
+        protected static string SQLInsert(int? s)
         {
             if (!s.HasValue)
             {
@@ -109,7 +109,7 @@ namespace DatabaseDownloader
             return Convert.ToString(s);
         }
 
-        protected static string formatToSql(int s)
+        protected static string SQLInsert(int s)
         {
             return Convert.ToString(s);
         }

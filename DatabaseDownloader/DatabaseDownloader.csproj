@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbilityReader.cs" />
+    <Compile Include="AttackReader.cs" />
     <Compile Include="BulbaReader.cs" />
     <Compile Include="PokemonReader.cs" />
     <Compile Include="Program.cs" />

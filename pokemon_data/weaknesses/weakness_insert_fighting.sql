@@ -1,0 +1,54 @@
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Normal',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Fighting',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Flying',
+'Fighting',
+2);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Poison',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Ground',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Rock',
+'Fighting',
+0.5);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Bug',
+'Fighting',
+0.5);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Ghost',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Steel',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Fire',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Water',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Grass',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Electric',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Psychic',
+'Fighting',
+2);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Ice',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Dragon',
+'Fighting',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Dark',
+'Fighting',
+0.5);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Fairy',
+'Fighting',
+2);

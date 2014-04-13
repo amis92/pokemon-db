@@ -1,0 +1,54 @@
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Normal',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Fighting',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Flying',
+'Electric',
+0.5);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Poison',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Ground',
+'Electric',
+2);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Rock',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Bug',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Ghost',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Steel',
+'Electric',
+0.5);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Fire',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Water',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Grass',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Electric',
+'Electric',
+0.5);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Psychic',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Ice',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Dragon',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Dark',
+'Electric',
+1);
+INSERT INTO PMOLENDA.TYPES_EFFECTIVENESS values ( 'Fairy',
+'Electric',
+1);
