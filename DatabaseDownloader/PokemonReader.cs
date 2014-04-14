@@ -167,7 +167,7 @@ namespace DatabaseDownloader
                 evoNumberString = getMatch(@"sprite(\d).?=" + NationalPokedexString, EvoBox);
                 if (evoNumberString == null)
                 {
-                    return "-1";
+                    return null;
                 }
             }
             int evoNumber = Convert.ToInt32(evoNumberString);
@@ -210,7 +210,7 @@ namespace DatabaseDownloader
             {
                 foreach (Capture version in m.Groups["Version1"].Captures)
                 {
-                    if (Regex.Match(version.Value, "Pal Park|Pokéwalker|Dream World").Success)
+                    if (Regex.Match(version.Value, "Par?l Park|Pokéwalker|Dream World").Success)
                         continue;
                     gameSet.Add(version.Value);
                 }
@@ -240,9 +240,30 @@ namespace DatabaseDownloader
             var matches = Regex.Matches(Learnsets, pattern);
             foreach (Match m in matches)
             {
-                attackSet.Add(m.Groups["attack"].Value);
+                attackSet.Add(CorrectAttackName(m.Groups["attack"].Value));
             }
             return attackSet.ToList();
+        }
+
+        private string CorrectAttackName(string attack)
+        {
+            switch (attack)
+            {
+                case "Faint Attack":
+                    return "Feint Attack";
+                case "Sand-Attack":
+                    return "Sand Attack";
+                case "SolarBeam":
+                    return "Solar Beam";
+                case "DynamicPunch":
+                    return "Dynamic Punch";
+                case "Selfdestruct":
+                    return "Self-Destruct";
+                case "AncientPower":
+                    return "Ancient Power";
+                default:
+                    return attack;
+            }
         }
 
         public override string GetSqlInsert()
@@ -261,8 +282,8 @@ namespace DatabaseDownloader
             b.AppendLine();
             foreach (Location l in LocationAppearances)
             {
-                b.Append("INSERT INTO PMOLENDA.LOCATION_APPEARANCES VALUES (");
-                b.AppendFormat(" {0}, {1}, {2} );", SQLInsert(l.Name), SQLInsert(l.Region), SQLInsert(NationalPokedexNumber)).AppendLine();
+                b.Append("/* INSERT INTO PMOLENDA.LOCATION_APPEARANCES VALUES (");
+                b.AppendFormat(" {0}, {1}, {2} ); */", SQLInsert(l.Name), SQLInsert(l.Region), SQLInsert(NationalPokedexNumber)).AppendLine();
             }
             foreach (string game in GameAppearances)
             {
