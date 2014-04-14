@@ -252,8 +252,8 @@ namespace DatabaseDownloader
             b.AppendFormat(" {0},", SQLInsert(NationalPokedexNumber));
             b.AppendFormat(" {0},", SQLInsert(Name));
             b.AppendFormat(" {0},", SQLInsert(GenerationIntroduced));
-            b.AppendFormat(" {0},", SQLInsert(Weight));
-            b.AppendFormat(" {0},", SQLInsert(Height));
+            b.AppendFormat(" {0},", Weight);
+            b.AppendFormat(" {0},", Height);
             b.AppendFormat(" {0}, {1},", SQLInsert(Type1), SQLInsert(Type2));
             b.AppendFormat(" {0}, {1},", SQLInsert(Ability1), SQLInsert(Ability2));
             b.AppendFormat(" {0},", SQLInsert(AbilityHidden));
