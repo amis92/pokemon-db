@@ -261,6 +261,10 @@ namespace DatabaseDownloader
                     return "Self-Destruct";
                 case "AncientPower":
                     return "Ancient Power";
+                case "Hi Jump Kick":
+                    return "High Jump Kick";
+                case "ThunderPunch":
+                    return "Thunder Punch";
                 default:
                     return attack;
             }
