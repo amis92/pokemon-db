@@ -14,148 +14,82 @@ namespace DatabaseDownloader
 
         public int NationalPokedexNumber
         {
-            get {
-                return Convert.ToInt32(NationalPokedexString);
-            }
+            get;
+            private set;
         }
 
         public string NationalPokedexString
         {
-            get
-            {
-                return getMatch(@"ndex=(\d+)\s*\|");
-            }
+            get;
+            private set;
         }
 
         public string Name
         {
-            get
-            {
-                return getMatch(@"name=(.+)\s*\|");
-            }
+            get;
+            private set;
         }
 
         public int GenerationIntroduced
         {
-            get
-            {
-                int id = NationalPokedexNumber;
-                if (id > 719)
-                    return 7;
-                if (id > 649)
-                    return 6;
-                if (id > 493)
-                    return 5;
-                if (id > 386)
-                    return 4;
-                if (id > 251)
-                    return 3;
-                if (id > 151)
-                    return 2;
-                return 1;
-            }
+            get;
+            private set;
         }
 
         public string Weight
         {
-            get
-            {
-                return getMatch(@"weight-kg=(.+)\s*\|");
-            }
+            get;
+            private set;
         }
 
         public string Height
         {
-            get
-            {
-                return getMatch(@"height-m=(.+)\s*\|");
-            }
+            get;
+            private set;
         }
 
         public string Type1
         {
-            get
-            {
-                return getMatch(@"type1=(.+)\s*\|");
-            }
+            get;
+            private set;
         }
 
         public string Type2
         {
-            get
-            {
-                return getMatch(@"type2=(.+)\s*\|");
-            }
+            get;
+            private set;
         }
 
         public string Ability1
         {
-            get
-            {
-                return getMatch(@"ability1=(.+)\s*\|");
-            }
+            get;
+            private set;
         }
 
         public string Ability2
         {
-            get
-            {
-                return getMatch(@"ability2=(.+)\s*\|");
-            }
+            get;
+            private set;
         }
 
         public string AbilityHidden
         {
-            get
-            {
-                return getMatch(@"abilityd=(.+)\s*\|");
-            }
+            get;
+            private set;
         }
 
         private string EvoBox;
 
         public string PreviousEvolutionNationalIdString
         {
-            get
-            {
-                if (EvoBox == null)
-                {
-                    return "-2";
-                }
-                string evoNumberString = getMatch(@"no(\d)=" + NationalPokedexString, EvoBox);
-                if (evoNumberString == null)
-                {
-                    evoNumberString = getMatch(@"sprite(\d).?=" + NationalPokedexString, EvoBox);
-                    if (evoNumberString == null)
-                    {
-                        return "-1";
-                    }
-                }
-                int evoNumber = Convert.ToInt32(evoNumberString);
-                if (evoNumber == 1)
-                {
-                    return null;
-                }
-                string match = getMatch("no" + (evoNumber - 1) + @"=(\d\d\d)", EvoBox);
-                if (match == null)
-                {
-                    match = getMatch("sprite" + (evoNumber - 1) + @"=(\d\d\d)", EvoBox);
-                }
-                return match;
-            }
+            get;
+            private set;
         }
 
         public int? PreviousEvolutionNationalId
         {
-            get
-            {
-                string id = PreviousEvolutionNationalIdString;
-                if (id == null)
-                {
-                    return null;
-                }
-                return Convert.ToInt32(id);
-            }
+            get;
+            private set;
         }
 
         private string Locations;
@@ -172,9 +106,13 @@ namespace DatabaseDownloader
             private set;
         }
 
-
         private string Learnsets;
 
+        public IReadOnlyCollection<string> Learnset
+        {
+            get;
+            private set;
+        }
 
         public PokemonReader(string Infobox, string locations, string learnsets, string EvoBox)
         {
@@ -182,11 +120,81 @@ namespace DatabaseDownloader
             this.Locations = locations;
             this.Learnsets = learnsets;
             this.EvoBox = EvoBox;
+            this.Name = getMatch(@"name=(.+)\s*\|");
+            this.NationalPokedexString = getMatch(@"ndex=(\d+)\s*\|");
+            this.NationalPokedexNumber = Convert.ToInt32(NationalPokedexString);
+            this.GenerationIntroduced = GetGeneration();
+            this.Weight = getMatch(@"weight-kg=(.+)\s*\|");
+            this.Height = getMatch(@"height-m=(.+)\s*\|");
+            this.Type1 = getMatch(@"type1=(.+)\s*\|");
+            this.Type2 = getMatch(@"type2=(.+)\s*\|");
+            this.Ability1 = getMatch(@"ability1=(.+)\s*\|");
+            this.Ability2 = getMatch(@"ability2=(.+)\s*\|");
+            this.AbilityHidden = getMatch(@"abilityd=(.+)\s*\|");
+            this.PreviousEvolutionNationalIdString = CalcPrevEvoString();
+            this.PreviousEvolutionNationalId = CalcPrevEvo();
             setLocationsAndGames();
+            Learnset = GetLearnset();
+        }
+
+        private int GetGeneration()
+        {
+            int id = NationalPokedexNumber;
+            if (id > 719)
+                return 7;
+            if (id > 649)
+                return 6;
+            if (id > 493)
+                return 5;
+            if (id > 386)
+                return 4;
+            if (id > 251)
+                return 3;
+            if (id > 151)
+                return 2;
+            return 1;
+        }
+
+        private string CalcPrevEvoString()
+        {
+            if (EvoBox == null)
+            {
+                return "-2";
+            }
+            string evoNumberString = getMatch(@"no(\d)=" + NationalPokedexString, EvoBox);
+            if (evoNumberString == null)
+            {
+                evoNumberString = getMatch(@"sprite(\d).?=" + NationalPokedexString, EvoBox);
+                if (evoNumberString == null)
+                {
+                    return "-1";
+                }
+            }
+            int evoNumber = Convert.ToInt32(evoNumberString);
+            if (evoNumber == 1)
+            {
+                return null;
+            }
+            string match = getMatch("no" + (evoNumber - 1) + @"=(\d\d\d)", EvoBox);
+            if (match == null)
+            {
+                match = getMatch("sprite" + (evoNumber - 1) + @"=(\d\d\d)", EvoBox);
+            }
+            return match;
+        }
+
+        private int? CalcPrevEvo()
+        {
+            string id = PreviousEvolutionNationalIdString;
+            if (id == null)
+            {
+                return null;
+            }
+            return Convert.ToInt32(id);
         }
 
         private void setLocationsAndGames()
-        {
+        { //TODO get to discover b2w2 area pattern (etc.)
             String pattern =
 @"(?x) \{\{ Availability/ Entry\d \| v= (?<Version1> [^\|]+ ) ( \| v2= (?<Version2> [^\|]+ ) )?" +
 @".* \| area= (\[\[ Route \]\] s? )? .*?" +
@@ -197,17 +205,16 @@ namespace DatabaseDownloader
 @")+ \}\}";
             var matches = Regex.Matches(Locations, pattern);
             List<Location> locsList = new List<Location>();
-            List<string> gamesList = new List<string>();
+            List<string> gameSet = new List<string>();
             foreach (Match m in matches)
             {
                 foreach (Capture version in m.Groups["Version1"].Captures)
                 {
-                    gamesList.Add(version.Value);
+                    if (Regex.Match(version.Value, "Pal Park|Pokéwalker|Dream World").Success)
+                        continue;
+                    gameSet.Add(version.Value);
                 }
-                foreach (Capture version in m.Groups["Version2"].Captures)
-                {
-                    gamesList.Add(version.Value);
-                }
+                foreach (Capture version in m.Groups["Version2"].Captures) gameSet.Add(version.Value);
                 foreach (Capture routeCapture in m.Groups["Routes"].Captures)
                 {
                     string rString = routeCapture.Value;
@@ -217,30 +224,56 @@ namespace DatabaseDownloader
                 }
                 foreach (Capture location in m.Groups["Places"].Captures)
                 {
-                    if (Regex.Match("Trade|p|pkmn|DL|pw|dwa|Evolution", location.Value).Success)
-                    {
+                    if (Regex.Match(location.Value, "Trade|p|pkmn|DL|pw|dwa|Evolution").Success)
                         continue;
-                    }
-                    locsList.Add(new Location(location.Value, GetRegionOfVersion(gamesList[gamesList.Count - 1])));
+                    locsList.Add(new Location(location.Value, GetRegionOfVersion(gameSet[gameSet.Count - 1])));
                 }
             }
             LocationAppearances = (new HashSet<Location>(locsList)).ToList();
-            GameAppearances = (new HashSet<string>(gamesList)).ToList();
+            GameAppearances = (new HashSet<string>(gameSet)).ToList();
+        }
+
+        private IReadOnlyCollection<string> GetLearnset()
+        {
+            String pattern = @"(?x) \{\{ learnlist/ (tm|level|breed|tutor)5 \| (([^\|\{]+) | (( \{\{ [^\}]+ \}\} [^\|\{]* )+)) \| (?<attack>[^\|]+) \| .*";
+            HashSet<string> attackSet = new HashSet<string>();
+            var matches = Regex.Matches(Learnsets, pattern);
+            foreach (Match m in matches)
+            {
+                attackSet.Add(m.Groups["attack"].Value);
+            }
+            return attackSet.ToList();
         }
 
         public override string GetSqlInsert()
         {
             var b = new StringBuilder();
-            b.AppendLine("INSERT INTO PMOLENDA.POKEMON VALUES (");
-            b.AppendFormat("{0},", SQLInsert(NationalPokedexNumber)).AppendLine();
-            b.AppendFormat("{0},", SQLInsert(Name)).AppendLine();
-            b.AppendFormat("{0},", SQLInsert(GenerationIntroduced)).AppendLine();
-            b.AppendFormat("{0},", SQLInsert(Weight)).AppendLine();
-            b.AppendFormat("{0},", SQLInsert(Height)).AppendLine();
-            b.AppendFormat("{0}, {1},", SQLInsert(Type1), SQLInsert(Type2)).AppendLine();
-            b.AppendFormat("{0}, {1},", SQLInsert(Ability1), SQLInsert(Ability2)).AppendLine();
-            b.AppendFormat("{0},", SQLInsert(AbilityHidden)).AppendLine();
-            b.AppendFormat("{0});", SQLInsert(PreviousEvolutionNationalId)).AppendLine();
+            b.Append("INSERT INTO PMOLENDA.POKEMON VALUES (");
+            b.AppendFormat(" {0},", SQLInsert(NationalPokedexNumber));
+            b.AppendFormat(" {0},", SQLInsert(Name));
+            b.AppendFormat(" {0},", SQLInsert(GenerationIntroduced));
+            b.AppendFormat(" {0},", SQLInsert(Weight));
+            b.AppendFormat(" {0},", SQLInsert(Height));
+            b.AppendFormat(" {0}, {1},", SQLInsert(Type1), SQLInsert(Type2));
+            b.AppendFormat(" {0}, {1},", SQLInsert(Ability1), SQLInsert(Ability2));
+            b.AppendFormat(" {0},", SQLInsert(AbilityHidden));
+            b.AppendFormat(" {0});", SQLInsert(PreviousEvolutionNationalId));
+            b.AppendLine();
+            foreach (Location l in LocationAppearances)
+            {
+                b.Append("INSERT INTO PMOLENDA.LOCATION_APPEARANCES VALUES (");
+                b.AppendFormat(" {0}, {1}, {2} );", SQLInsert(l.Name), SQLInsert(l.Region), SQLInsert(NationalPokedexNumber)).AppendLine();
+            }
+            foreach (string game in GameAppearances)
+            {
+                b.Append("INSERT INTO PMOLENDA.GAME_APPEARANCES VALUES (");
+                b.AppendFormat(" {0}, {1} );", SQLInsert(game), SQLInsert(NationalPokedexNumber)).AppendLine();
+            }
+            foreach (string attack in Learnset)
+            {
+                b.Append("INSERT INTO PMOLENDA.ATTACK_LEARNABILITY VALUES (");
+                b.AppendFormat(" {0}, {1} );", SQLInsert(attack), SQLInsert(NationalPokedexNumber)).AppendLine();
+            }
             return b.ToString();
         }
 
@@ -257,16 +290,22 @@ namespace DatabaseDownloader
                 GetText(AbilityHidden)).AppendLine();
             builder.AppendLine(GetText(PreviousEvolutionNationalId));
             builder.AppendLine();
-            builder.AppendLine("#Locations:");
+            builder.AppendLine("# Locations:");
             foreach (Location l in LocationAppearances)
             {
                 builder.AppendFormat("{0}\t\t{1}", l.Region, l.Name).AppendLine();
             }
             builder.AppendLine();
-            builder.AppendLine("#Games:");
+            builder.AppendLine("# Games:");
             foreach (string game in GameAppearances)
             {
                 builder.AppendLine(game);
+            }
+            builder.AppendLine();
+            builder.AppendLine("# Attacks:");
+            foreach (string attack in Learnset)
+            {
+                builder.AppendLine(attack);
             }
             return builder.ToString();
         }
@@ -322,7 +361,7 @@ namespace DatabaseDownloader
                 //read basic info
                 string infobox = getInfobox(page, "{{Pokémon Infobox", "==Biology");
                 //read game locations
-                string locations = getInfobox(page, "{{Availability/Header", "{{Availability/Footer}}");
+                string locations = getInfobox(page, "{{Availability", "{{Availability/Footer}}");
                 //read learnsets
                 string learnsets = getInfobox(page, "==Learnset", "==Side game data");
                 //read evolution
