@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -25,44 +26,55 @@ namespace DatabaseDownloader
 
         static void Main(string[] args)
         {
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
             if (args.Length != 3 && args.Length != 4)
             {
                 goto helpExit;
-            }
-            TextReader reader;
-            string format = args[1];
-            switch (args[2])
+            } try
             {
-                case "cmd" :
-                    if (args.Length != 3) goto helpExit;
-                    reader = Console.In;
-                    break;
-                case "1":
-                    if (args.Length != 4) goto helpExit;
-                    reader = new StringReader(args[3]);
-                    break;
-                default:
-                    if (args.Length != 3) goto helpExit;
-                    reader = File.OpenText(args[2]);
-                    break;
+
+                TextReader reader;
+                string format = args[1];
+                switch (args[2])
+                {
+                    case "cmd":
+                        if (args.Length != 3) goto helpExit;
+                        reader = Console.In;
+                        break;
+                    case "1":
+                        if (args.Length != 4) goto helpExit;
+                        reader = new StringReader(args[3]);
+                        break;
+                    default:
+                        if (args.Length != 3) goto helpExit;
+                        reader = File.OpenText(args[2]);
+                        break;
+                }
+                switch (args[0])
+                {
+                    case "abilities":
+                        AbilityReader.DownloadAndPrint(reader, format, x => Console.WriteLine(help));
+                        break;
+                    case "pokemon":
+                        PokemonReader.DownloadAndPrint(reader, format, x => Console.WriteLine(help));
+                        break;
+                    case "attacks":
+                        AttackReader.DownloadAndPrint(reader, format, x => Console.WriteLine(help));
+                        break;
+                    default:
+                        Console.WriteLine(help); break;
+                }
             }
-            switch (args[0])
+            catch (Exception e)
             {
-                case "abilities":
-                    AbilityReader.DownloadAndPrint(reader, format, x => Console.WriteLine(help));
-                    break;
-                case "pokemon":
-                    PokemonReader.DownloadAndPrint(reader, format, x => Console.WriteLine(help));
-                    break;
-                case "attacks":
-                    AttackReader.DownloadAndPrint(reader,format, x => Console.WriteLine(help));
-                    break;
-                default:
-                    Console.WriteLine(help); break;
+                Console.WriteLine("Exception occured: " + e.Message);
+                Console.WriteLine(e.StackTrace);
             }
             //Console.Beep(2000, 400);
             //Console.Beep(2500, 400);
             //Console.Beep(3000, 800);
+            Console.WriteLine(String.Format("/* Task completed in {0} */", stopwatch.Elapsed));
             return;
             helpExit:
                 Console.WriteLine(help);
