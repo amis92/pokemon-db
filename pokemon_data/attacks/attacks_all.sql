@@ -1,0 +1,4277 @@
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Pound',
+'Normal',
+35,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Karate Chop',
+'Fighting',
+25,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Double Slap',
+'Normal',
+10,
+15,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Comet Punch',
+'Normal',
+15,
+18,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mega Punch',
+'Normal',
+20,
+80,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Pay Day',
+'Normal',
+20,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fire Punch',
+'Fire',
+15,
+75,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ice Punch',
+'Ice',
+15,
+75,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Thunder Punch',
+'Electric',
+15,
+75,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Scratch',
+'Normal',
+35,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Vice Grip',
+'Normal',
+30,
+55,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Guillotine',
+'Normal',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Razor Wind',
+'Normal',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Swords Dance',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Cut',
+'Normal',
+30,
+50,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Gust',
+'Flying',
+35,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Wing Attack',
+'Flying',
+35,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Whirlwind',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fly',
+'Flying',
+15,
+90,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bind',
+'Normal',
+20,
+15,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Slam',
+'Normal',
+20,
+80,
+75);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Vine Whip',
+'Grass',
+25,
+45,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Stomp',
+'Normal',
+20,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Double Kick',
+'Fighting',
+30,
+30,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mega Kick',
+'Normal',
+5,
+120,
+75);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Jump Kick',
+'Fighting',
+10,
+100,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rolling Kick',
+'Fighting',
+15,
+60,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sand Attack',
+'Ground',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Headbutt',
+'Normal',
+15,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Horn Attack',
+'Normal',
+25,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fury Attack',
+'Normal',
+20,
+15,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Horn Drill',
+'Normal',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Tackle',
+'Normal',
+35,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Body Slam',
+'Normal',
+15,
+85,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Wrap',
+'Normal',
+20,
+15,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Take Down',
+'Normal',
+20,
+90,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Thrash',
+'Normal',
+10,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Double-Edge',
+'Normal',
+15,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Tail Whip',
+'Normal',
+30,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Poison Sting',
+'Poison',
+35,
+15,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Twineedle',
+'Bug',
+20,
+25,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Pin Missile',
+'Bug',
+20,
+25,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Leer',
+'Normal',
+30,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bite',
+'Dark',
+25,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Growl',
+'Normal',
+40,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Roar',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sing',
+'Normal',
+15,
+NULL,
+55);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Supersonic',
+'Normal',
+20,
+NULL,
+55);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sonic Boom',
+'Normal',
+20,
+NULL,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Disable',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Acid',
+'Poison',
+30,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ember',
+'Fire',
+25,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Flamethrower',
+'Fire',
+15,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mist',
+'Ice',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Water Gun',
+'Water',
+25,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hydro Pump',
+'Water',
+5,
+110,
+80);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Surf',
+'Water',
+15,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ice Beam',
+'Ice',
+10,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Blizzard',
+'Ice',
+5,
+110,
+70);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Psybeam',
+'Psychic',
+20,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bubble Beam',
+'Water',
+20,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Aurora Beam',
+'Ice',
+20,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hyper Beam',
+'Normal',
+5,
+150,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Peck',
+'Flying',
+35,
+35,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Drill Peck',
+'Flying',
+20,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Submission',
+'Fighting',
+25,
+80,
+80);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Low Kick',
+'Fighting',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Counter',
+'Fighting',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Seismic Toss',
+'Fighting',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Strength',
+'Normal',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Absorb',
+'Grass',
+25,
+20,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mega Drain',
+'Grass',
+15,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Leech Seed',
+'Grass',
+10,
+NULL,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Growth',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Razor Leaf',
+'Grass',
+25,
+55,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Solar Beam',
+'Grass',
+10,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Poison Powder',
+'Poison',
+35,
+NULL,
+75);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Stun Spore',
+'Grass',
+30,
+NULL,
+75);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sleep Powder',
+'Grass',
+15,
+NULL,
+75);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Petal Dance',
+'Grass',
+10,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'String Shot',
+'Bug',
+40,
+NULL,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dragon Rage',
+'Dragon',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fire Spin',
+'Fire',
+15,
+35,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Thunder Shock',
+'Electric',
+30,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Thunderbolt',
+'Electric',
+15,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Thunder Wave',
+'Electric',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Thunder',
+'Electric',
+10,
+110,
+70);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rock Throw',
+'Rock',
+15,
+50,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Earthquake',
+'Ground',
+10,
+100,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fissure',
+'Ground',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dig',
+'Ground',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Toxic',
+'Poison',
+10,
+NULL,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Confusion',
+'Psychic',
+25,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Psychic',
+'Psychic',
+10,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hypnosis',
+'Psychic',
+20,
+NULL,
+60);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Meditate',
+'Psychic',
+40,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Agility',
+'Psychic',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Quick Attack',
+'Normal',
+30,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rage',
+'Normal',
+20,
+20,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Teleport',
+'Psychic',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Night Shade',
+'Ghost',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mimic',
+'Normal',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Screech',
+'Normal',
+40,
+NULL,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Double Team',
+'Normal',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Recover',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Harden',
+'Normal',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Minimize',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Smokescreen',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Confuse Ray',
+'Ghost',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Withdraw',
+'Water',
+40,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Defense Curl',
+'Normal',
+40,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Barrier',
+'Psychic',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Light Screen',
+'Psychic',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Haze',
+'Ice',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Reflect',
+'Psychic',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Focus Energy',
+'Normal',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bide',
+'Normal',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Metronome',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mirror Move',
+'Flying',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Self-Destruct',
+'Normal',
+5,
+200,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Egg Bomb',
+'Normal',
+10,
+100,
+75);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Lick',
+'Ghost',
+30,
+30,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Smog',
+'Poison',
+20,
+30,
+70);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sludge',
+'Poison',
+20,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bone Club',
+'Ground',
+20,
+65,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fire Blast',
+'Fire',
+5,
+110,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Waterfall',
+'Water',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Clamp',
+'Water',
+10,
+35,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Swift',
+'Normal',
+20,
+60,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Skull Bash',
+'Normal',
+10,
+130,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Spike Cannon',
+'Normal',
+15,
+20,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Constrict',
+'Normal',
+35,
+10,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Amnesia',
+'Psychic',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Kinesis',
+'Psychic',
+15,
+NULL,
+80);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Soft-Boiled',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'High Jump Kick',
+'Fighting',
+10,
+130,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Glare',
+'Normal',
+30,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dream Eater',
+'Psychic',
+15,
+100,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Poison Gas',
+'Poison',
+40,
+NULL,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Barrage',
+'Normal',
+20,
+15,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Leech Life',
+'Bug',
+15,
+20,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Lovely Kiss',
+'Normal',
+10,
+NULL,
+75);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sky Attack',
+'Flying',
+5,
+140,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Transform',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bubble',
+'Water',
+30,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dizzy Punch',
+'Normal',
+10,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Spore',
+'Grass',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Flash',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Psywave',
+'Psychic',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Splash',
+'Normal',
+40,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Acid Armor',
+'Poison',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Crabhammer',
+'Water',
+10,
+100,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Explosion',
+'Normal',
+5,
+250,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fury Swipes',
+'Normal',
+15,
+18,
+80);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bonemerang',
+'Ground',
+10,
+50,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rest',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rock Slide',
+'Rock',
+10,
+75,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hyper Fang',
+'Normal',
+15,
+80,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sharpen',
+'Normal',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Conversion',
+'Normal',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Tri Attack',
+'Normal',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Super Fang',
+'Normal',
+10,
+NULL,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Slash',
+'Normal',
+20,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Substitute',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Struggle',
+'Normal',
+1,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sketch',
+'Normal',
+1,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Triple Kick',
+'Fighting',
+10,
+10,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Thief',
+'Dark',
+25,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Spider Web',
+'Bug',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mind Reader',
+'Normal',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Nightmare',
+'Ghost',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Flame Wheel',
+'Fire',
+25,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Snore',
+'Normal',
+15,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Curse',
+'Ghost',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Flail',
+'Normal',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Conversion 2',
+'Normal',
+30,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Aeroblast',
+'Flying',
+5,
+100,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Cotton Spore',
+'Grass',
+40,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Reversal',
+'Fighting',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Spite',
+'Ghost',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Powder Snow',
+'Ice',
+25,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Protect',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mach Punch',
+'Fighting',
+30,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Scary Face',
+'Normal',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Feint Attack',
+'Dark',
+20,
+60,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sweet Kiss',
+'Fairy',
+10,
+NULL,
+75);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Belly Drum',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sludge Bomb',
+'Poison',
+10,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mud-Slap',
+'Ground',
+10,
+20,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Octazooka',
+'Water',
+10,
+65,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Spikes',
+'Ground',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Zap Cannon',
+'Electric',
+5,
+120,
+50);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Foresight',
+'Normal',
+40,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Destiny Bond',
+'Ghost',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Perish Song',
+'Normal',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Icy Wind',
+'Ice',
+15,
+55,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Detect',
+'Fighting',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bone Rush',
+'Ground',
+10,
+25,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Lock-On',
+'Normal',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Outrage',
+'Dragon',
+15,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sandstorm',
+'Rock',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Giga Drain',
+'Grass',
+10,
+75,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Endure',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Charm',
+'Fairy',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rollout',
+'Rock',
+20,
+30,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'False Swipe',
+'Normal',
+40,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Swagger',
+'Normal',
+15,
+NULL,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Milk Drink',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Spark',
+'Electric',
+20,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fury Cutter',
+'Bug',
+20,
+40,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Steel Wing',
+'Steel',
+25,
+70,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mean Look',
+'Normal',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Attract',
+'Normal',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sleep Talk',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Heal Bell',
+'Normal',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Return',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Present',
+'Normal',
+15,
+NULL,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Frustration',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Safeguard',
+'Normal',
+25,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Pain Split',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sacred Fire',
+'Fire',
+5,
+100,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Magnitude',
+'Ground',
+30,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dynamic Punch',
+'Fighting',
+5,
+100,
+50);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Megahorn',
+'Bug',
+10,
+120,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dragon Breath',
+'Dragon',
+20,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Baton Pass',
+'Normal',
+40,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Encore',
+'Normal',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Pursuit',
+'Dark',
+20,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rapid Spin',
+'Normal',
+40,
+20,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sweet Scent',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Iron Tail',
+'Steel',
+15,
+100,
+75);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Metal Claw',
+'Steel',
+35,
+50,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Vital Throw',
+'Fighting',
+10,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Morning Sun',
+'Normal',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Synthesis',
+'Grass',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Moonlight',
+'Fairy',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hidden Power',
+'Normal',
+15,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Cross Chop',
+'Fighting',
+5,
+100,
+80);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Twister',
+'Dragon',
+20,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rain Dance',
+'Water',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sunny Day',
+'Fire',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Crunch',
+'Dark',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mirror Coat',
+'Psychic',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Psych Up',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Extreme Speed',
+'Normal',
+5,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ancient Power',
+'Rock',
+5,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Shadow Ball',
+'Ghost',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Future Sight',
+'Psychic',
+10,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rock Smash',
+'Fighting',
+15,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Whirlpool',
+'Water',
+15,
+35,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Beat Up',
+'Dark',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fake Out',
+'Normal',
+10,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Uproar',
+'Normal',
+10,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Stockpile',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Spit Up',
+'Normal',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Swallow',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Heat Wave',
+'Fire',
+10,
+95,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hail',
+'Ice',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Torment',
+'Dark',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Flatter',
+'Dark',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Will-O-Wisp',
+'Fire',
+15,
+NULL,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Memento',
+'Dark',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Facade',
+'Normal',
+20,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Focus Punch',
+'Fighting',
+20,
+150,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Smelling Salts',
+'Normal',
+10,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Follow Me',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Nature Power',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Charge',
+'Electric',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Taunt',
+'Dark',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Helping Hand',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Trick',
+'Psychic',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Role Play',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Wish',
+'Normal',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Assist',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ingrain',
+'Grass',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Superpower',
+'Fighting',
+5,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Magic Coat',
+'Psychic',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Recycle',
+'Normal',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Revenge',
+'Fighting',
+10,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Brick Break',
+'Fighting',
+15,
+75,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Yawn',
+'Normal',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Knock Off',
+'Dark',
+20,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Endeavor',
+'Normal',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Eruption',
+'Fire',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Skill Swap',
+'Psychic',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Imprison',
+'Psychic',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Refresh',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Grudge',
+'Ghost',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Snatch',
+'Dark',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Secret Power',
+'Normal',
+20,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dive',
+'Water',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Arm Thrust',
+'Fighting',
+20,
+15,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Camouflage',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Tail Glow',
+'Bug',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Luster Purge',
+'Psychic',
+5,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mist Ball',
+'Psychic',
+5,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Feather Dance',
+'Flying',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Teeter Dance',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Blaze Kick',
+'Fire',
+10,
+85,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mud Sport',
+'Ground',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ice Ball',
+'Ice',
+20,
+30,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Needle Arm',
+'Grass',
+15,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Slack Off',
+'Normal',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hyper Voice',
+'Normal',
+10,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Poison Fang',
+'Poison',
+15,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Crush Claw',
+'Normal',
+10,
+75,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Blast Burn',
+'Fire',
+5,
+150,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hydro Cannon',
+'Water',
+5,
+150,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Meteor Mash',
+'Steel',
+10,
+90,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Astonish',
+'Ghost',
+15,
+30,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Weather Ball',
+'Normal',
+10,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Aromatherapy',
+'Grass',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fake Tears',
+'Dark',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Air Cutter',
+'Flying',
+25,
+60,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Overheat',
+'Fire',
+5,
+130,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Odor Sleuth',
+'Normal',
+40,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rock Tomb',
+'Rock',
+15,
+60,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Silver Wind',
+'Bug',
+5,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Metal Sound',
+'Steel',
+40,
+NULL,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Grass Whistle',
+'Grass',
+15,
+NULL,
+55);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Tickle',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Cosmic Power',
+'Psychic',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Water Spout',
+'Water',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Signal Beam',
+'Bug',
+15,
+75,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Shadow Punch',
+'Ghost',
+20,
+60,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Extrasensory',
+'Psychic',
+20,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sky Uppercut',
+'Fighting',
+15,
+85,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sand Tomb',
+'Ground',
+15,
+35,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sheer Cold',
+'Ice',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Muddy Water',
+'Water',
+10,
+90,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bullet Seed',
+'Grass',
+30,
+25,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Aerial Ace',
+'Flying',
+20,
+60,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Icicle Spear',
+'Ice',
+30,
+25,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Iron Defense',
+'Steel',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Block',
+'Normal',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Howl',
+'Normal',
+40,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dragon Claw',
+'Dragon',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Frenzy Plant',
+'Grass',
+5,
+150,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bulk Up',
+'Fighting',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bounce',
+'Flying',
+5,
+85,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mud Shot',
+'Ground',
+15,
+55,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Poison Tail',
+'Poison',
+25,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Covet',
+'Normal',
+25,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Volt Tackle',
+'Electric',
+15,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Magical Leaf',
+'Grass',
+20,
+60,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Water Sport',
+'Water',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Calm Mind',
+'Psychic',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Leaf Blade',
+'Grass',
+15,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dragon Dance',
+'Dragon',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rock Blast',
+'Rock',
+10,
+25,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Shock Wave',
+'Electric',
+20,
+60,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Water Pulse',
+'Water',
+20,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Doom Desire',
+'Steel',
+5,
+140,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Psycho Boost',
+'Psychic',
+5,
+140,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Roost',
+'Flying',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Gravity',
+'Psychic',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Miracle Eye',
+'Psychic',
+40,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Wake-Up Slap',
+'Fighting',
+10,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hammer Arm',
+'Fighting',
+10,
+100,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Gyro Ball',
+'Steel',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Healing Wish',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Brine',
+'Water',
+10,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Natural Gift',
+'Normal',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Feint',
+'Normal',
+10,
+30,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Pluck',
+'Flying',
+20,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Tailwind',
+'Flying',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Acupressure',
+'Normal',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Metal Burst',
+'Steel',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'U-turn',
+'Bug',
+20,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Close Combat',
+'Fighting',
+5,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Payback',
+'Dark',
+10,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Assurance',
+'Dark',
+10,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Embargo',
+'Dark',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fling',
+'Dark',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Psycho Shift',
+'Psychic',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Trump Card',
+'Normal',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Heal Block',
+'Psychic',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Wring Out',
+'Normal',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Power Trick',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Gastro Acid',
+'Poison',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Lucky Chant',
+'Normal',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Me First',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Copycat',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Power Swap',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Guard Swap',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Punishment',
+'Dark',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Last Resort',
+'Normal',
+5,
+140,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Worry Seed',
+'Grass',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sucker Punch',
+'Dark',
+5,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Toxic Spikes',
+'Poison',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Heart Swap',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Aqua Ring',
+'Water',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Magnet Rise',
+'Electric',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Flare Blitz',
+'Fire',
+15,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Force Palm',
+'Fighting',
+10,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Aura Sphere',
+'Fighting',
+20,
+80,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rock Polish',
+'Rock',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Poison Jab',
+'Poison',
+20,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dark Pulse',
+'Dark',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Night Slash',
+'Dark',
+15,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Aqua Tail',
+'Water',
+10,
+90,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Seed Bomb',
+'Grass',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Air Slash',
+'Flying',
+15,
+75,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'X-Scissor',
+'Bug',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bug Buzz',
+'Bug',
+10,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dragon Pulse',
+'Dragon',
+10,
+85,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dragon Rush',
+'Dragon',
+10,
+100,
+75);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Power Gem',
+'Rock',
+20,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Drain Punch',
+'Fighting',
+10,
+75,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Vacuum Wave',
+'Fighting',
+30,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Focus Blast',
+'Fighting',
+5,
+120,
+70);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Energy Ball',
+'Grass',
+10,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Brave Bird',
+'Flying',
+15,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Earth Power',
+'Ground',
+10,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Switcheroo',
+'Dark',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Giga Impact',
+'Normal',
+5,
+150,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Nasty Plot',
+'Dark',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bullet Punch',
+'Steel',
+30,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Avalanche',
+'Ice',
+10,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ice Shard',
+'Ice',
+30,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Shadow Claw',
+'Ghost',
+15,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Thunder Fang',
+'Electric',
+15,
+65,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ice Fang',
+'Ice',
+15,
+65,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fire Fang',
+'Fire',
+15,
+65,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Shadow Sneak',
+'Ghost',
+30,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mud Bomb',
+'Ground',
+10,
+65,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Psycho Cut',
+'Psychic',
+20,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Zen Headbutt',
+'Psychic',
+15,
+80,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mirror Shot',
+'Steel',
+10,
+65,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Flash Cannon',
+'Steel',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rock Climb',
+'Normal',
+20,
+90,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Defog',
+'Flying',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Trick Room',
+'Psychic',
+5,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Draco Meteor',
+'Dragon',
+5,
+130,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Discharge',
+'Electric',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Lava Plume',
+'Fire',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Leaf Storm',
+'Grass',
+5,
+130,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Power Whip',
+'Grass',
+10,
+120,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rock Wrecker',
+'Rock',
+5,
+150,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Cross Poison',
+'Poison',
+20,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Gunk Shot',
+'Poison',
+5,
+120,
+80);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Iron Head',
+'Steel',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Magnet Bomb',
+'Steel',
+20,
+60,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Stone Edge',
+'Rock',
+5,
+100,
+80);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Captivate',
+'Normal',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Stealth Rock',
+'Rock',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Grass Knot',
+'Grass',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Chatter',
+'Flying',
+20,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Judgment',
+'Normal',
+10,
+100,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bug Bite',
+'Bug',
+20,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Charge Beam',
+'Electric',
+10,
+50,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Wood Hammer',
+'Grass',
+15,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Aqua Jet',
+'Water',
+20,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Attack Order',
+'Bug',
+15,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Defend Order',
+'Bug',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Heal Order',
+'Bug',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Head Smash',
+'Rock',
+5,
+150,
+80);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Double Hit',
+'Normal',
+10,
+35,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Roar of Time',
+'Dragon',
+5,
+150,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Spacial Rend',
+'Dragon',
+5,
+100,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Lunar Dance',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Crush Grip',
+'Normal',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Magma Storm',
+'Fire',
+5,
+100,
+75);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dark Void',
+'Dark',
+10,
+NULL,
+80);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Seed Flare',
+'Grass',
+5,
+120,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ominous Wind',
+'Ghost',
+5,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Shadow Force',
+'Ghost',
+5,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hone Claws',
+'Dark',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Wide Guard',
+'Rock',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Guard Split',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Power Split',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Wonder Room',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Psyshock',
+'Psychic',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Venoshock',
+'Poison',
+10,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Autotomize',
+'Steel',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rage Powder',
+'Bug',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Telekinesis',
+'Psychic',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Magic Room',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Smack Down',
+'Rock',
+15,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Storm Throw',
+'Fighting',
+10,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Flame Burst',
+'Fire',
+15,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sludge Wave',
+'Poison',
+10,
+95,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Quiver Dance',
+'Bug',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Heavy Slam',
+'Steel',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Synchronoise',
+'Psychic',
+15,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Electro Ball',
+'Electric',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Soak',
+'Water',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Flame Charge',
+'Fire',
+20,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Coil',
+'Poison',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Low Sweep',
+'Fighting',
+20,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Acid Spray',
+'Poison',
+20,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Foul Play',
+'Dark',
+15,
+95,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Simple Beam',
+'Normal',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Entrainment',
+'Normal',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'After You',
+'Normal',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Round',
+'Normal',
+15,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Echoed Voice',
+'Normal',
+15,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Chip Away',
+'Normal',
+20,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Clear Smog',
+'Poison',
+15,
+50,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Stored Power',
+'Psychic',
+10,
+20,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Quick Guard',
+'Fighting',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ally Switch',
+'Psychic',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Scald',
+'Water',
+15,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Shell Smash',
+'Normal',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Heal Pulse',
+'Psychic',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hex',
+'Ghost',
+10,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sky Drop',
+'Flying',
+10,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Shift Gear',
+'Steel',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Circle Throw',
+'Fighting',
+10,
+60,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Incinerate',
+'Fire',
+15,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Quash',
+'Dark',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Acrobatics',
+'Flying',
+15,
+55,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Reflect Type',
+'Normal',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Retaliate',
+'Normal',
+5,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Final Gambit',
+'Fighting',
+5,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bestow',
+'Normal',
+15,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Inferno',
+'Fire',
+5,
+100,
+50);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Water Pledge',
+'Water',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fire Pledge',
+'Fire',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Grass Pledge',
+'Grass',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Volt Switch',
+'Electric',
+20,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Struggle Bug',
+'Bug',
+20,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bulldoze',
+'Ground',
+20,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Frost Breath',
+'Ice',
+10,
+60,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dragon Tail',
+'Dragon',
+10,
+60,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Work Up',
+'Normal',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Electroweb',
+'Electric',
+15,
+55,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Wild Charge',
+'Electric',
+15,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Drill Run',
+'Ground',
+10,
+80,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dual Chop',
+'Dragon',
+15,
+40,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Heart Stamp',
+'Psychic',
+25,
+60,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Horn Leech',
+'Grass',
+10,
+75,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sacred Sword',
+'Fighting',
+15,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Razor Shell',
+'Water',
+10,
+75,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Heat Crash',
+'Fire',
+10,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Leaf Tornado',
+'Grass',
+10,
+65,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Steamroller',
+'Bug',
+20,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Cotton Guard',
+'Grass',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Night Daze',
+'Dark',
+10,
+85,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Psystrike',
+'Psychic',
+10,
+100,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Tail Slap',
+'Normal',
+10,
+25,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hurricane',
+'Flying',
+10,
+110,
+70);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Head Charge',
+'Normal',
+15,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Gear Grind',
+'Steel',
+15,
+50,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Searing Shot',
+'Fire',
+5,
+100,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Techno Blast',
+'Normal',
+5,
+120,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Relic Song',
+'Normal',
+10,
+75,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Secret Sword',
+'Fighting',
+10,
+85,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Glaciate',
+'Ice',
+10,
+65,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Bolt Strike',
+'Electric',
+5,
+130,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Blue Flare',
+'Fire',
+5,
+130,
+85);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fiery Dance',
+'Fire',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Freeze Shock',
+'Ice',
+5,
+140,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ice Burn',
+'Ice',
+5,
+140,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Snarl',
+'Dark',
+15,
+55,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Icicle Crash',
+'Ice',
+10,
+85,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'V-create',
+'Fire',
+5,
+180,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fusion Flare',
+'Fire',
+5,
+100,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fusion Bolt',
+'Electric',
+5,
+100,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Flying Press',
+'Fighting',
+10,
+80,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mat Block',
+'Fighting',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Belch',
+'Poison',
+10,
+120,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Rototiller',
+'Ground',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Sticky Web',
+'Bug',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fell Stinger',
+'Bug',
+25,
+30,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Phantom Force',
+'Ghost',
+10,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Trick-or-Treat',
+'Ghost',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Noble Roar',
+'Normal',
+30,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Ion Deluge',
+'Electric',
+25,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Parabolic Charge',
+'Electric',
+20,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Forest''s Curse',
+'Grass',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Petal Blizzard',
+'Grass',
+15,
+90,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Freeze-Dry',
+'Ice',
+20,
+70,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Disarming Voice',
+'Fairy',
+15,
+40,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Parting Shot',
+'Dark',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Topsy-Turvy',
+'Dark',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Draining Kiss',
+'Fairy',
+10,
+50,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Crafty Shield',
+'Fairy',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Flower Shield',
+'Fairy',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Grassy Terrain',
+'Grass',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Misty Terrain',
+'Fairy',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Electrify',
+'Electric',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Play Rough',
+'Fairy',
+10,
+90,
+90);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fairy Wind',
+'Fairy',
+30,
+40,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Moonblast',
+'Fairy',
+15,
+95,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Boomburst',
+'Normal',
+10,
+140,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Fairy Lock',
+'Fairy',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'King''s Shield',
+'Steel',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Play Nice',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Confide',
+'Normal',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Diamond Storm',
+'Rock',
+5,
+100,
+95);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Water Shuriken',
+'Water',
+20,
+15,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Mystical Fire',
+'Fire',
+10,
+65,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Spiky Shield',
+'Grass',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Aromatic Mist',
+'Fairy',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Eerie Impulse',
+'Electric',
+15,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Venom Drench',
+'Poison',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Powder',
+'Bug',
+20,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Geomancy',
+'Fairy',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Magnetic Flux',
+'Electric',
+20,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Happy Hour',
+'Normal',
+30,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Electric Terrain',
+'Electric',
+10,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Dazzling Gleam',
+'Fairy',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Celebrate',
+'Normal',
+40,
+NULL,
+NULL);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Baby-Doll Eyes',
+'Fairy',
+30,
+NULL,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Nuzzle',
+'Electric',
+20,
+20,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Hold Back',
+'Normal',
+40,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Infestation',
+'Bug',
+20,
+20,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Power-Up Punch',
+'Fighting',
+20,
+40,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Oblivion Wing',
+'Flying',
+10,
+80,
+100);
+
+INSERT INTO PMOLENDA.ATTACKS VALUES (
+'Land''s Wrath',
+'Ground',
+10,
+90,
+100);

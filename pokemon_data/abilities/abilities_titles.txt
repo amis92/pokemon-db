@@ -1,0 +1,3 @@
+﻿Adaptability_(Ability)
+Aerilate_(Ability)
+Light_Metal_(Ability)
